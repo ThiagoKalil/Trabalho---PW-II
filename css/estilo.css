@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+body {
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.658);
+    background-color: #1b1b1b;
+}
+
+.linha {
+    background-color: rgba(59, 59, 59, 0.664);
+}
+
+.texto {
+    color: white;
+    font-weight: bold;
+}
+
+.bg-header {
+    background: url("../img/alien2.jpg");
+    background-size: cover;
+}
+
+.text-header {
+    font-family: "Acme", sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0.15rem 0.2rem rgba(255, 255, 255, 0.75);
+}
+
+.mt-n5 {
+    margin-top: -2rem !important;
+}
+
+.rodape .container {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.rodape {
+    padding: 2rem 0;
+    color: #999;
+    background-color: #000000;
+    border-top: 0.05rem solid #e5e5e5;
+}
